@@ -1,6 +1,6 @@
 const request = require('request');
 const axios = require('axios');
-const { API_KEY } = require('../../config.js');
+const { API_KEY } = require('../../config.js').API_KEY;
 
 // write out logic/functions required to query TheMovieDB.org
 
