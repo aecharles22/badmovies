@@ -61,7 +61,6 @@ app.get('/genres', function(req, res) {
 });
 
 app.post('/save', function(req, res) {
-  console.log(req.body.selectedMovie);
   db.add(req.body.selectedMovie);
 });
 

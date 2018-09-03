@@ -11,6 +11,7 @@ class Movies extends React.Component {
   handleOnClick(evt, movieObject) {
     evt.preventDefault();
     this.props.saveMovie(movieObject);
+    this.props.deleteMovie(movieObject);
     // this.movieSearch(evt.target.value);
   }
 
